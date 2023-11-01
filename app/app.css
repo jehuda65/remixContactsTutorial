@@ -232,8 +232,10 @@ i {
 }
 
 #sidebar nav a.active {
-  background: hsl(224, 98%, 58%);
+  background: rgb(39, 122, 255);
   color: white;
+  border-radius: 10px;
+  
 }
 
 #sidebar nav a.pending {
@@ -246,7 +248,7 @@ i {
     background: #e3e3e3;
   }
   50% {
-    background: hsla(224, 98%, 58%, 0.5);
+    background: rgb(39, 122, 255);
   }
   100% {
     background: #e3e3e3;
